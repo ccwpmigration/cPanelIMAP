@@ -9,7 +9,9 @@ https://github.com/imapsync/imapsync - thanks to @gilleslamiral for IMAPSYNC
 
 install in one simple command: 
 bash <(curl -s https://github.com/ccwpmigration/cPanelIMAP/raw/main/install.sh)
-
+or 2 commands
+wget https://github.com/ccwpmigration/cPanelIMAP/raw/main/install.sh 
+sh ./install.sh
 
 Plugin can be toggled using "Feature Manager" for specific packages.
 
