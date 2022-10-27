@@ -3,6 +3,9 @@
 # PURPOSE: Install cPanelIMAP IMAPSYNC GUI for cPanel
 # AUTHOR: StephenA <support@ccwpmigration.xyz>
 #
+echo "Deleteing any currently installed version"
+rm -rf /usr/local/cpanel/base/frontend/paper_lantern/cc_imapsync
+rm -rf /usr/local/cpanel/base/frontend/jupiter/cc_imapsync
 echo "Installing cPanelIMAP IMAPSYNC GUI for cPanel - Paper Lantern"
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/cc_imapsync
 cd /usr/local/cpanel/base/frontend/paper_lantern/cc_imapsync
